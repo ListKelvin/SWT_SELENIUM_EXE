@@ -22,14 +22,15 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Objects;
-
+@Test
 public class TestCase02 {
 
-    public static void main(String[] args) {
+    public static void testCase02(String[] args) {
 
         WebDriver driver = driverFactory.getChromeDriver();
 
