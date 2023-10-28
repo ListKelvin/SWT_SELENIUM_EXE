@@ -65,7 +65,7 @@ public class TestCase05 {
             registerPage.inputFirstname("Pham");
             registerPage.inputMiddlename("Cong");
             registerPage.inputLastname("Min");
-            registerPage.inputEmail("minhpcse172070@fpt.edu.vn");
+            registerPage.inputEmail("minhpcse1728070@fpt.edu.vn");
             registerPage.inputPassword("123456");
             registerPage.inputConfirmPassword("123456");
             registerPage.clickOnRegisterBtn();
